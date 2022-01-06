@@ -1,0 +1,36 @@
+Ma doc gia: FIT-123
+Ten doc gia: Phan Thanh An
+CMND: 364197249
+Ngay sinh: 5/6/2003
+Gioi tinh: 1
+Dia chi: Vi Thuy, Hau Giang
+Email: ptan21@clc.fitus.edu.vn
+Ngay lap the: 2/1/2022
+
+Ma doc gia: FIT-124
+Ten doc gia: Nguyen Van A
+CMND: 333444666
+Ngay sinh: 1/1/2001
+Gioi tinh: 1
+Dia chi: TP.HCM
+Email: nguyevana@gmail.com
+Ngay lap the: 1/1/2022
+
+Ma doc gia: FIT-124
+Ten doc gia: Nguyen Thi B
+CMND: 265199209
+Ngay sinh: 1/1/2003
+Gioi tinh: 1
+Dia chi: Can Tho
+Email: nguyenthia@yahoo.com
+Ngay lap the: 12/11/2021
+
+Ma doc gia: FIT-125
+Ten doc gia: Nguyen Van C
+CMND: 131345987
+Ngay sinh: 3/1/2007
+Gioi tinh: 1
+Dia chi: Ben Tre
+Email: cnguyenvan@gmail.com
+Ngay lap the: 1/1/2022
+

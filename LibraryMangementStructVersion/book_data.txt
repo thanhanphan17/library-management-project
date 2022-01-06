@@ -1,0 +1,27 @@
+Ten sach: C++ va lap trinh huong doi tuong
+Tac gia: Pham Van At
+NXB: NXB Bach Khoa Ha Noi
+ISBN: 8935095624539
+Nam xuat ban: 2019
+The loai: Lap trinh
+Gia: 78500
+So luong: 10
+
+Ten sach: Lap Trinh Quy Dao Cuoc Doi
+Tac gia: Kien Tran
+NXB: NXB Hong Duc
+ISBN: 8935278600619
+Nam xuat ban: 2019
+The loai: Ky nang song
+Gia: 114800
+So luong: 7
+
+Ten sach: Nghe Thuat Giai Ma Hanh Vi
+Tac gia: Tran Lo
+NXB: NXB Thanh Nien
+ISBN: 8935325000287
+Nam xuat ban: 2021
+The loai: tam ly
+Gia: 123000
+So luong: 6
+

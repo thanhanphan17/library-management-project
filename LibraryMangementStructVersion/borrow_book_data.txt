@@ -1,0 +1,36 @@
+Ma phieu: HCMUS-1
+Ma doc gia: FIT-123
+Ten doc gia: Phan Thanh An
+So luong muon: 2
+ISBN: 8935095624539
+ISBN: 8935325000287
+Ngay muon: 6/1/2022 
+Tinh trang: da tra
+Ngay tra: 5/6/2022 
+So sach bi mat: 0
+Tien phat: 715000
+
+Ma phieu: HCMUS-2
+Ma doc gia: FIT-166
+Ten doc gia: Huynh Duc Thien
+So luong muon: 1
+ISBN: 8935095624539
+Ngay muon: 6/1/2022 
+Tinh trang: da tra
+Ngay tra: 15/1/2021 
+So sach bi mat: 0
+Tien phat: 0
+
+Ma phieu: HCMUS-3
+Ma doc gia: FIT-128
+Ten doc gia: Phan Thanh An
+So luong muon: 3
+ISBN: 8935095624539
+ISBN: 8935278600619
+ISBN: 8935325000287
+Ngay muon: 6/1/2022 
+Tinh trang: da tra
+Ngay tra: 15/1/2022 
+So sach bi mat: 2
+Tien phat: 413000
+
