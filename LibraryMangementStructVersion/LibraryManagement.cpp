@@ -17,7 +17,7 @@ int main() {
 	// init data
 	init_book(books, count_book, "book_data.txt");
 	init_reader(readers, count_reader, "reader_data.txt");
-	init_borrow_book(bCards, count_borrow, "borrow_book_data.txt");
+	init_borrow_book(bCards, books, count_borrow, count_book, "borrow_book_data.txt");
 
 	while (1) {
 		system("cls");
@@ -41,6 +41,10 @@ int main() {
 
 			case 4:
 				return_book(bCards, books, count_borrow, count_book);
+				break;
+
+			case 5:
+				static_menu(books, readers, bCards, count_book, count_reader, count_borrow);
 				break;
 		}
 		scanf_s("%*c");

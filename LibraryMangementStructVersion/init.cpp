@@ -51,7 +51,7 @@ void init_book(Book books[], int& count_book, const char path[]) {
 	}
 }
 
-void init_borrow_book(BorrowCard bCards[], int& count_borrow, const char path[]) {
+void init_borrow_book(BorrowCard bCards[], Book books[], int& count_borrow, int count_book, const char path[]) {
 	FILE* fi;
 	fopen_s(&fi, path, "r");
 
@@ -64,6 +64,11 @@ void init_borrow_book(BorrowCard bCards[], int& count_borrow, const char path[])
 
 			for (int i = 0; i < bCards[count_borrow].bQuantity; ++i) {
 				fscanf_s(fi, "ISBN: %s\n", bCards[count_borrow].bBook[i].ISBN, 100);
+				for (int j = 0; j < count_book; ++j) {
+					if (strcmp(bCards[count_borrow].bBook[i].ISBN, books[j].ISBN) == 0) {
+						bCards[count_borrow].bBook[i] = books[j];
+					}
+				}
 			}
 			fscanf_s(fi, "Ngay muon: %d/%d/%d \n", &bCards[count_borrow].bDate.day,
 				&bCards[count_borrow].bDate.month, &bCards[count_borrow].bDate.year);

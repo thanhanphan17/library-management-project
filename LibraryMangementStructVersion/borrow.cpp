@@ -160,8 +160,8 @@ void borrow_book(BorrowCard bCards[], Reader readers[], Book books[], int& count
             gotoxy(51, cnt);
             if (strcmp(_ISBN, books[j].ISBN) == 0) {
                 foundISBN = true;
-                strcpy(bCards[count_borrow].bBook[i].ISBN, books[j].ISBN);
-                colorFont(12);
+                bCards[count_borrow].bBook[i] = books[j];
+                //strcpy(bCards[count_borrow].bBook[i].ISBN, books[j].ISBN);
                 colorFont(14);
                 printf("%s", books[j].name);
                 books[j].quantity--;
@@ -185,6 +185,7 @@ void borrow_book(BorrowCard bCards[], Reader readers[], Book books[], int& count
             ++cnt;
         }
     }
+
     gotoxy(3, cnt++);
     colorFont(9);
     printf("Nhap ngay muon sach (dd/mm/yyyy): ");
@@ -197,6 +198,7 @@ void borrow_book(BorrowCard bCards[], Reader readers[], Book books[], int& count
     for (int i = 1; i <= 7; ++i) {
         next_day(curr_date);
     }
+
     colorFont(9);
     printf("Ngay du kien ban phai tra sach: ");
     colorFont(14);
@@ -409,7 +411,7 @@ void return_book(BorrowCard bCards[], Book books[], int& count_borrow, int count
                         colorFont(9);
                         printf("Nhap lai ISBN, ban dang khong muon sach nay:                            ");
                         colorFont(12);
-                        gotoxy(strlen("Nhap lai ISBN, ban dang khong muon sach nay:") + 4, line);
+                        gotoxy(int(strlen("Nhap lai ISBN, ban dang khong muon sach nay:")) + 4, line);
                         scanf_s("%s", bCards[pos].lBook[i].ISBN, 20);
                     }
                 }

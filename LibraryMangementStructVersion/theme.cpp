@@ -24,6 +24,13 @@ void gotoxy(short x, short y) {
 // Show the logo "Library" draw by ascii character
 void show_logo() {
     resizeConsole(1050, 600);
+    Date today = get_today();
+    gotoxy(118, 0);
+    colorFont(9);
+    printf("Hom nay la: "); 
+    colorFont(14);
+    printf("%02d/%02d/%04d", today.day, today.month, today.year);
+    
     printf("\n");
     colorFont(6);
     printf("                ___      _   ___  \n");

@@ -1,4 +1,6 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include "date.h"
+#include <ctime>
 
 // Check leap year
 bool isLeapYear(int year) {
@@ -76,4 +78,17 @@ int distance(Date d1, Date d2) {
     int dd2 = rdn(d2);
 
     return (dd1 <= dd2) ? 0 : (dd1 - dd2);
+}
+
+Date get_today() {
+    Date new_date;
+    time_t now = time(0);
+
+    tm* ltm = localtime(&now);
+
+    new_date.year = 1900 + ltm->tm_year;
+    new_date.month = 1 + ltm->tm_mon;
+    new_date.day = ltm->tm_mday;
+
+    return new_date;
 }

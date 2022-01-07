@@ -12,6 +12,7 @@
 #include "theme.h"
 #include "date.h"
 #include "borrow.h"
+#include "static.h"
 #include "str_process.h"
 
 const int MXN = 20;
@@ -20,5 +21,5 @@ void init_reader(Reader readers[], int& count_reader, const char path[]);
 
 void init_book(Book books[], int& count_book, const char path[]);
 
-void init_borrow_book(BorrowCard bCards[], int& count_borrow, const char path[]);
+void init_borrow_book(BorrowCard bCards[], Book books[], int& count_borrow, int count_book, const char path[]);
 
